@@ -1,0 +1,185 @@
+ body {
+
+    background: black;
+    margin:0;
+    opacity: 2;
+
+ }
+
+ img{
+  width:100px;
+  height: auto;
+  margin-bottom: -210px;
+ }
+
+ p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  opacity: 2;
+ }
+
+ .nome {
+   font-family: 'Noto Sans', sans-serif;
+   position: absolute;
+  transition: all 2s;
+  transition-timing-function: ease-in-out;
+
+    color: #00BFFF;
+    background-image: -webkit-linear-gradient(92deg, #00BFFF, #00BFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+ }
+
+  .container {
+      width: 100vw;
+      height: 100vh;
+      background: black;
+      position: relative;
+      margin-left: 40px;
+    }
+
+    .timeline {
+      position: absolute;
+      display: flex;
+      left:0;
+      top:0;
+      bottom:0;
+      right:0;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .timeline div{
+      display: block;
+      background-color: black;
+      opacity: 0.8;
+      color: white;
+      padding-bottom: 2em;
+      padding-left: 2em;
+      padding-right: 2em;
+      border-radius: 2em;
+    }
+
+
+    .timeline a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .timeline a:hover {
+      color: #00BFFF;
+      font-size: 20px;
+      
+    }
+
+
+    .link a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+
+    }
+
+
+    .titolo {
+      position: absolute;
+      display: flex;
+      left:0;
+      top:0;
+      bottom:0;
+      right:0;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .titolo div{
+      display: block;
+      color: white;
+      padding: 2em;
+      border-radius: 2em;
+      font-size: 100px;
+    }
+
+    .titolo a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 30px;
+    }
+
+      .titolo a:hover{
+      color: #00BFFF;
+      font-size: 35px;
+}
+
+.provo {
+  font-size: 70px;
+}
+
+
+h3{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #00BFFF;
+  margin-bottom: 10px;
+ }
+
+ h5{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  opacity: 2;
+  margin-bottom: -35px;
+
+ }
+
+ .wikipediani{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  opacity: 2;
+  margin-bottom: -35px;
+  transition: all 2s;
+  transition-timing-function: ease-in-out;
+
+    color: #00BFFF;
+    background-image: -webkit-linear-gradient(92deg, #00BFFF, #00BFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+ }
+
+
+/*--------------------------*/
